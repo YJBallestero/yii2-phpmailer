@@ -1,0 +1,58 @@
+{
+    "name": "yjballestero/yii2-phpmailer",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "homepage": "https://github.com/yjballestero/yii2-phpmailer.git",
+    "description": "PHPMailer Adapter for Yii2",
+    "keywords": [
+        "yii2",
+        "phpmailer",
+        "mail",
+        "adaper"
+    ],
+    "authors": [
+        {
+            "name": "YJ Ballestero",
+            "email": "yanisballestero@hotmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/yjballestero/yii2-phpmailer.git"
+    },
+    "autoload": {
+        "psr-4": {
+            "yjballestero\\phpmailer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "yjballestero\\tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.1",
+        "yiisoft/yii2": "~2.0.13",
+        "phpmailer/phpmailer": "^6.6"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit": "^9.5"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "apcu-autoloader": true,
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
+}
