@@ -25,7 +25,9 @@ class PHPMailerMailer extends BaseMailer
 {
     /** @inheritDoc */
     public $messageClass = PHPMailerMessage::class;
-    public array $transportConfig = [];
+    
+    /**@var $transportConfig \PHPMailer\PHPMailer\PHPMailer|array */
+    public array|\PHPMailer\PHPMailer\PHPMailer $transportConfig = [];
 
     /**
      * Creates transport.

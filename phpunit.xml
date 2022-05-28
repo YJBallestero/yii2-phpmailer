@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ @copyright 2019-2021 Dicr http://dicr.org
-  ~ @author Igor A Tarasov <develop@dicr.org>
-  ~ @license MIT
-  ~ @version 13.03.21 01:28:21
+  ~  @author    Y.J. Ballestero <yanisballestero@hotmail.com>
+  ~  @copyright Copyright (c) 2020-2022. YJ Ballestero
+  ~  @license   https://github.com/YJBallestero/yii2-phpmailer/license
+  ~  @link      https://github.com/YJBallestero
   -->
 
-<phpunit
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.5/phpunit.xsd"
-        bootstrap="tests/bootstrap.php"
->
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.5/phpunit.xsd" bootstrap="tests/bootstrap.php">
     <testsuites>
         <testsuite name="YJBallestero Test Suite">
             <directory>./tests</directory>
